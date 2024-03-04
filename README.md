@@ -49,11 +49,11 @@
 ### 训练用数据集
 - **人脸**公开数据集**CelebA-HQ**：链接：https://github.com/tkarras/progressive_growing_of_gans
 制作机构：Tero Karras, Samuli Laine, Timo Aila 和 NVIDIA 的研究人员制作
-- **场景**公开数据集**Places2**：链接：http://places2.csail.mit.edu/download.html
+- **场景（风景）**公开数据集**Places2**：链接：http://places2.csail.mit.edu/download.html
 制作机构：斯坦福大学和微软研究院共同制作
 - **街景**公开数据集**Paris StreetView**：链接：http://opendata.paris.fr/explore/dataset/photos-de-rue-a-paris/
 制作机构：巴黎市政府
-- **文理**公开数据集**DTD**：链接：http://www.robots.ox.ac.uk/~vgg/data/dtd/。
+- **纹理**公开数据集**DTD**：链接：http://www.robots.ox.ac.uk/~vgg/data/dtd/。
 制作机构：英国牛津大学计算机视觉研究团队
 - **建筑**公开数据集**Façade**：链接：
 GitHub上的项目：https://github.com/shannontian/facade-parsing
