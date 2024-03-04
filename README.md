@@ -7,7 +7,7 @@
 - 到百度网盘下载预训练文件，下载后将其放到pretrained文件夹下(如果过期联系作者即可)
 
   ```
-  链接：https://pan.baidu.com/s/1Y1wTuiAAu9AU3ruvjv17XQ?pwd=imgf 
+  链接：https://pan.baidu.com/s/1aeIC18UuhZDxi7srg7wTFg?pwd=imgf 
   提取码：imgf
   ```
 
