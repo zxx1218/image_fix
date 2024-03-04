@@ -5,10 +5,23 @@
 ### 模型使用方式：
 
 - 我提供在CelebA-HQ和Places2数据集上训练好的两个模型，如果你的电脑没有显卡也可以直接使用。
-- 下载代码后cd到代码根目录，然后pip install -r requirements.txt（如果太慢请换源，在后面加上-i https://pypi.tuna.tsinghua.edu.cn/simple
-- 在代码根目录下输入 **python generate_image.py --network pretrained/CelebA-HQ_512.pkl --dpath test_sets/CelebA-HQ/images --mpath test_sets/CelebA-HQ/masks --outdir samples**
-- 上面这段运行命令是用test_sets/CelebA-HQ/images作为训练图片，test_sets/CelebA-HQ/masks作为覆盖在图片上面的膜运行训练好的CelebA-HQ_512.pkl模型，结果保存在samples文件夹内，打开即可看到修复后图。
-- 注意： test_sets/CelebA-HQ/images和 test_sets/CelebA-HQ/mashks两个文件夹内的待修复原图和代表破损位置的mask掩膜数量一定要匹配不然无法运行（已经有两张图可以用来测试，如果想测试其他图片，可以下载下面CelebA-HQ公开数据集）。另外，github连接只提供训练好的模型和使用代码，不提供训练用代码，如果需要模型源码请联系作者（联系方式在后面）。
+
+- 下载代码后cd到代码根目录，然后通过pip安装requirements.txt内的环境依赖（如果太慢请换源，在后面加上下面第二行所示的代码）
+
+  ```
+  pip install -r requirements.txt
+  -i https://pypi.tuna.tsinghua.edu.cn/simple（清华源）
+  ```
+
+- 在代码根目录下输入
+
+  ``` 
+  python generate_image.py --network pretrained/CelebA-HQ_512.pkl --dpath test_sets/CelebA-HQ/images --mpath test_sets/CelebA-HQ/masks --outdir samples
+  ```
+
+  上面这段运行命令是用test_sets/CelebA-HQ/images作为待修复图片，test_sets/CelebA-HQ/masks作为覆盖在图片上面的膜，并使用训练好的CelebA-HQ_512.pkl模型进行图像修复，结果保存在samples文件夹内，打开即可看到修复后图。
+
+- **注意：** test_sets/CelebA-HQ/images和 test_sets/CelebA-HQ/mashks两个文件夹内的待修复原图和代表破损位置的mask掩膜数量一定要匹配不然无法运行（已经有两张图可以用来测试，如果想测试其他图片，可以下载下面CelebA-HQ公开数据集）。另外，github连接只提供训练好的模型和使用代码，不提供训练用代码，如果需要模型源码请联系作者。
 
 ### 作者联系方式
 
