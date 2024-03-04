@@ -4,7 +4,12 @@
 
 ### 模型使用方式：
 
-- 我提供在CelebA-HQ和Places2数据集上训练好的两个模型，如果你的电脑没有显卡也可以直接使用。
+- 到百度网盘下载预训练文件，下载后将其放到pretrained文件夹下(如果过期联系作者即可)
+
+  ```
+  链接：https://pan.baidu.com/s/1Y1wTuiAAu9AU3ruvjv17XQ?pwd=imgf 
+  提取码：imgf
+  ```
 
 - 下载代码后cd到代码根目录，然后通过pip安装requirements.txt内的环境依赖（如果太慢请换源，在后面加上下面第二行所示的代码）
 
