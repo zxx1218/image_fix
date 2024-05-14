@@ -1,6 +1,12 @@
 # 基于深度学习的图像修复算法（Transformer、GAN）
 
+## :sparkles: 人脸修复Demo
+
 ![csdn展示图](./show_img/csdn展示图.jpg)
+
+## :sparkles: 建筑&风景修复Demo
+
+- 稍后上传
 
 #### Abstract
 
