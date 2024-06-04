@@ -10,7 +10,7 @@
 
 ## :sparkles: 人脸修复Demo（模型训练基于CelebA-HQ数据集 - 4万张图）
 
-![csdn展示图](./show_img/csdn展示图.jpg)
+<img src="./show_img/csdn展示图.jpg" width="1000px">
 
 ## :sparkles: 建筑&风景修复Demo（模型训练基于Places2数据集 - 180万张图）
 
@@ -39,9 +39,10 @@ PS：用于图片修复的Mask在这里下载（必须使用Mask，Mask的作用
 
 👆
 
-![csdn展示图](./show_img/gradio展示.png)
+<img src="./show_img/gradio展示.png" width="900px">
 
 <hr>
+
 
 
 
@@ -58,9 +59,12 @@ PS：用于图片修复的Mask在这里下载（必须使用Mask，Mask的作用
 
 - 待作者整理后上传
 
-![csdn展示图](./show_img/模型结构图.png)
+
+
+<img src="./show_img/模型结构图.png" width="1000px">
 
 <hr>
+
 
 ## :rocket: 运行要求
 
@@ -70,6 +74,7 @@ PS：用于图片修复的Mask在这里下载（必须使用Mask，Mask的作用
 - 如果电脑没有显卡也可以直接调用该模型（通过CPU+内存加载模型）
 
 <hr>
+
 
 
 ## :zap:开始
@@ -98,13 +103,13 @@ python gradio_demo.py
 
 回车后会自动启动Web服务，在控制台看到如下信息代表成功启动，在浏览器打开弹出的URL即可👇
 
-![GUI展示](./show_img/gradio_kzt.png)
+<img src="./show_img/gradio_kzt.png" width="900px">
 
 ### 方式二：启动基于QT的桌面应用GUI
 
 使用QT编译器打开QT代码即可，详见[计算机毕业设计--基于深度学习技术（Transformer、GAN）的破损图像修复算法（含Github代码+GUI与Web端展示界面）_计算机专业本科毕业设计深度学习-CSDN博客](https://blog.csdn.net/qq_45566099/article/details/134942373)
 
-![GUI展示](./show_img/Snipaste_2024-06-04_09-59-19.png)
+<img src="./show_img/Snipaste_2024-06-04_09-59-19.png" width="800px">
 
 ### 方式三：通过控制台（cmd \ 终端）进行批量修复
 
@@ -113,15 +118,17 @@ python gradio_demo.py
 ```
 # 首先cd到算法代码imf_fix根目录下
 cd img_fix
+
 # 执行generate_image_cpu.py文件（这里需要根据修复需求添加相关参数）
 python generate_image_cpu.py
 ```
 
 回车后，会在控制台看到如下日志信息👇
 
-![控制台批量修图演示](./show_img/cmd_demo.png)
+<img src="./show_img/cmd_demo.png" width="500px">
 
 <hr>
+
 
 ## 模型演示（控制台演示 & QT界面展示）
 
@@ -145,6 +152,7 @@ Web端在线体验地址： :white_check_mark:[访问这里进行图像修复在
 
 <hr>
 
+
 ## :wrench:	如何自己训练模型?
 
 - 项目提供自行训练or微调的方式，请咨询作者
@@ -160,6 +168,7 @@ Web端在线体验地址： :white_check_mark:[访问这里进行图像修复在
 - 本项目完整代码 + 环境配置方法（另可提供远程部署服务）+ GUI界面 + Web端 == **价格300RMB，可提供远程部署服务，另提供GPU服务器短期租赁服务，24G显存服务器每个月100RMB**
 
 <hr>
+
 
 ## 模型训练可用公开数据集
 
@@ -178,6 +187,7 @@ Web端在线体验地址： :white_check_mark:[访问这里进行图像修复在
   制作机构：Czech Technical University in Prague (捷克技术大学)
 
 <hr>
+
 
 ## 广告
 
