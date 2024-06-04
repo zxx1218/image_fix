@@ -12,8 +12,15 @@
 
 👇
 **Web端在线体验地址：**:white_check_mark:[图像修复在线体验链接](https://qh880639rv62.vicp.fun/):white_check_mark:
+PS：用于人脸修复的数据集在这里下载（也可以换用其他的，但使用CelebA-HQ中的4万张图进行测试效果最好）
 
-PS：用于图片修复的Mask在这里下载
+```
+百度网盘分享的文件
+链接：https://pan.baidu.com/s/1f8v6-OQsK_6YHvlvTvovGQ?pwd=khgb 
+提取码：khgb
+```
+
+PS：用于图片修复的Mask在这里下载（必须使用Mask，Mask的作用是告知模型图片破损的位置）
 
 ```
 百度网盘分享的文件
