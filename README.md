@@ -100,7 +100,7 @@ python gradio_demo.py
 
 回车后会自动启动Web服务，在控制台看到如下信息代表成功启动，在浏览器打开弹出的URL即可👇
 
-![GUI展示](./show_img/kzt.png)
+![GUI展示](./show_img/gradio_kzt.png)
 
 ### 方式二：启动基于QT的桌面应用GUI
 
