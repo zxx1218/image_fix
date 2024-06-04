@@ -54,22 +54,20 @@ PS：用于图片修复的Mask在这里下载（必须使用Mask，Mask的作用
 &emsp;&emsp;最近的研究表明，在图像修复问题中建立远程相互作用模型具有很高的重要性。为了实现这一目标，现有的方法要么利用独立注意力技术，要么利用Transformer。但是，考虑到计算成本，并且通常需要修复低分辨率下的图像。本课题提出了一种新的基于Transformer的图像修复模型，该模型能够有效处理高分辨率图像。具体来说，本课题设计了一个面向预测像素的Transformer结构模型，结合卷积的上下采样和图像风格迁移技术来实现缺失或者模糊图像的修复。
 &emsp;&emsp;该模型由以下几个主要部分组成：卷积头、Transformer、卷积尾和风格迁移模块。 卷积头负责从输入图像和掩码中提取视觉标记。它包括四个3*3卷积层，用于更改图像维度和下采样。Transformer是模型的主要组成部分，由五个不同分辨率的Transformer组成。使用多头情境注意力对长距离互动进行建模。 卷积尾用于对输出标记的空间分辨率进行上采样以匹配输入大小。风格迁移模块旨在实现多元化生成并增强输出的多样性。它通过使用额外的噪声输入在重建过程中更改卷积层的权重归一化来操纵输出。该模块还结合了图像条件样式和无噪声样式，以增强噪声输入的表示能力。
 
+## 指标测试&结果
+
+- 待作者整理后上传
+
 ![csdn展示图](./show_img/模型结构图.png)
 
 <hr>
 
-## :rocket: 算法获取
-
-- Giuhub链接：[GitHub链接](https://github.com/zxx1218/image_fix)
-- Gitee链接：[Gitee](https://gitee.com/zxx1218/imgfix.git)
-- PS：如果通过Github访问项目，请不要通过“加速通道”访问，因为加速通道中的项目版本比较老
-
-### 运行要求
+## :rocket: 运行要求
 
 - 运行算法与Web前端需要 Python >= 3.8
 - 运行GUI界面需要下载QT编译器 5.14.2 版本
-- 我提供在 CelebA-HQ 和 Places2 数据集训练好的两个模型，建议使用带有nvidia系列的显卡（比如说1060、3050、3090都是nvidia系列的）
-- 如果电脑没有显卡也可以直接调用该模型（通过CPU+内存加载模型），从上述 Github or Gitee 链接寻找即可。
+- 我提供在 CelebA-HQ 和 Places2 数据集训练好的两个模型，建议使用带有nvidia系列的显卡（比如说RTX1060、3060、4090等等都是nvidia系列的显卡）
+- 如果电脑没有显卡也可以直接调用该模型（通过CPU+内存加载模型）
 
 <hr>
 
@@ -79,7 +77,7 @@ PS：用于图片修复的Mask在这里下载（必须使用Mask，Mask的作用
 ### 环境配置（推荐使用conda安装环境）
 
 ```
-# 从github上Clone项目
+# Clone项目
 git clone https://github.com/zxx1218/image_fix.git
 
 # 使用conda创建环境
@@ -108,6 +106,21 @@ python gradio_demo.py
 
 ![GUI展示](./show_img/Snipaste_2024-06-04_09-59-19.png)
 
+### 方式三：通过控制台（cmd \ 终端）进行批量修复
+
+按照下述操作执行：
+
+```
+# 首先cd到算法代码imf_fix根目录下
+cd img_fix
+# 执行generate_image_cpu.py文件（这里需要根据修复需求添加相关参数）
+python generate_image_cpu.py
+```
+
+回车后，会在控制台看到如下日志信息👇
+
+![控制台批量修图演示](./show_img/cmd_demo.png)
+
 <hr>
 
 ## 模型演示（控制台演示 & QT界面展示）
@@ -122,7 +135,7 @@ PS：2024.6.4 QT界面已经升级到V2.0版本，提供了内嵌的sellite轻�
 
 ### 2. 访问Web进行图像修复
 
-Web端在线体验地址：:white_check_mark:[访问这里进行图像修复在线体验](https://qh880639rv62.vicp.fun/):white_check_mark:
+Web端在线体验地址： :white_check_mark:[访问这里进行图像修复在线体验](https://qh880639rv62.vicp.fun/):white_check_mark:
 
 - 由于github上传视频受限，观看演示视频请移步至我的CSDN观看，连接：https://blog.csdn.net/qq_45566099/article/details/134942373
 
