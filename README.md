@@ -83,12 +83,18 @@ pip install -r requirements.txt
 python gradio_demo.py
 ```
 
+#### 方式二：启动基于QT的桌面应用GUI
+
+使用QT编译器打开QT代码即可，详见[计算机毕业设计--基于深度学习技术（Transformer、GAN）的破损图像修复算法（含Github代码+GUI与Web端展示界面）_计算机专业本科毕业设计深度学习-CSDN博客](https://blog.csdn.net/qq_45566099/article/details/134942373)
+
+![GUI展示](./show_img/Snipaste_2024-06-04_09-59-19.png)
 #### 联系作者：
 
 - VX：Accddvva
 - QQ：1144968929
 - **该项目代码提供训练好的模型文件以及调用该文件进行修图的测试代码（clone后安装环境即可使用，开源版不包含模型源码以及gui）**
 - 本项目完整代码+环境配置教程+代码使用方式+GUI界面 == **价格300RMB，可提供远程部署服务**
+
 
 <hr>
 
