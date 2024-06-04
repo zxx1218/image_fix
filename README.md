@@ -109,7 +109,7 @@ python gradio_demo.py
 
 使用QT编译器打开QT代码即可，详见[计算机毕业设计--基于深度学习技术（Transformer、GAN）的破损图像修复算法（含Github代码+GUI与Web端展示界面）_计算机专业本科毕业设计深度学习-CSDN博客](https://blog.csdn.net/qq_45566099/article/details/134942373)
 
-<img src="./show_img/Snipaste_2024-06-04_09-59-19.png" width="800px">
+<img src="./show_img/Snipaste_2024-06-04_09-59-19.png" width="700px">
 
 ### 方式三：通过控制台（cmd \ 终端）进行批量修复
 
