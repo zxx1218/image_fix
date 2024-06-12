@@ -1,54 +1,54 @@
-- # 基于深度学习技术（Transformer、GAN）的图像修复算法（含Github代码+GUI桌面应用程序与Web端界面代码）
+# 基于深度学习技术（Transformer、GAN）的图像修复算法（含Github代码+GUI桌面应用程序与Web端界面代码）
 
-  ### 本篇文章是针对破损照片的修复。如果你想对老照片进行灰度图上色，色彩复原，请参考这篇CSDN作品（含Github代码）👇
+### 本篇文章是针对破损照片的修复。如果你想对老照片进行灰度图上色，色彩复原，请参考这篇CSDN作品（含Github代码）👇
 
-  [基于深度学习的老（旧）照片上色算法模型设计与实现（对抗生成式网络GAN、含Github代码与Web端设计）](https://blog.csdn.net/qq_45566099/article/details/138611013)
+[基于深度学习的老（旧）照片上色算法模型设计与实现（对抗生成式网络GAN、含Github代码与Web端设计）](https://blog.csdn.net/qq_45566099/article/details/138611013)
 
-  ### 如果要做老照片色彩增强，清晰化，划痕修复，划痕检测，请参考这篇CSDN作品（含Github代码）👇
+### 如果要做老照片色彩增强，清晰化，划痕修复，划痕检测，请参考这篇CSDN作品（含Github代码）👇
 
-  [计算机毕业设计--老照片（灰白照片）清晰化+划痕修复+色彩增强的深度学习算法设计与实现（含giuhub代码+GUI可视化界面）](https://blog.csdn.net/qq_45566099/article/details/136506388)
+[计算机毕业设计--老照片（灰白照片）清晰化+划痕修复+色彩增强的深度学习算法设计与实现（含giuhub代码+GUI可视化界面）](https://blog.csdn.net/qq_45566099/article/details/136506388)
 
-  ## :sparkles: 人脸修复Demo（模型训练基于CelebA-HQ数据集 - 4万张图）
+## :sparkles: 人脸修复Demo（模型训练基于CelebA-HQ数据集 - 4万张图）
 
-  <img src="./show_img/csdn展示图.jpg" width="1000px">
+<img src="./show_img/csdn展示图.jpg" width="1000px">
 
-  ## :sparkles: 建筑&风景修复Demo（模型训练基于Places2数据集 - 180万张图）
+## :sparkles: 建筑&风景修复Demo（模型训练基于Places2数据集 - 180万张图）
 
-  - 稍后上传
+- 稍后上传
 
-  ## :sparkles: 网页端效果展示
+## :sparkles: 网页端效果展示
 
-  👇
-  **Web端在线体验地址：**:white_check_mark:[访问这里进行图像修复在线体验](https://qh880639rv62.vicp.fun/):white_check_mark:
+👇
+**Web端在线体验地址：**:white_check_mark:[访问这里进行图像修复在线体验](https://qh880639rv62.vicp.fun/):white_check_mark:
 
-  PS：用于人脸修复的数据集在这里下载（也可以换用其他图片，但使用CelebA-HQ中的4万张图进行测试效果最好）
+PS：用于人脸修复的数据集在这里下载（也可以换用其他图片，但使用CelebA-HQ中的4万张图进行测试效果最好）
 
-  ```
-  百度网盘分享的文件
-  链接：https://pan.baidu.com/s/1f8v6-OQsK_6YHvlvTvovGQ?pwd=khgb 
-  提取码：khgb
-  ```
+```
+百度网盘分享的文件
+链接：https://pan.baidu.com/s/1f8v6-OQsK_6YHvlvTvovGQ?pwd=khgb 
+提取码：khgb
+```
 
-  PS：用于图片修复的Mask在这里下载（必须使用Mask，Mask的作用是告知模型图片破损的位置）
+PS：用于图片修复的Mask在这里下载（必须使用Mask，Mask的作用是告知模型图片破损的位置）
 
-  ```
-  百度网盘分享的文件
-  链接：https://pan.baidu.com/s/1Det77BagB6Xm3LdKG1_JFA?pwd=zz1k 
-  提取码：zz1k
-  ```
+```
+百度网盘分享的文件
+链接：https://pan.baidu.com/s/1Det77BagB6Xm3LdKG1_JFA?pwd=zz1k 
+提取码：zz1k
+```
 
-  **在线体验使用方式：**
-  
-  &emsp;&emsp;打开连接后，左侧两个图片输入框分别需要上传待修复的原图和代表原图上破损位置的Mask（Mask可以从上方百度网盘下载，也可以自行制作，512*512黑白图），上传后点击Submit即可开始修复，修复结束后左侧会分别展示Mask叠加到原图上的效果（代表模型真实输入）以及图片的修复结果。
-  &emsp;&emsp;Clear按钮用来清空所有输入（连续修图时使用）。Flag按钮用来保存修复结果（该结果会保存在后台服务器，如果要下载修图结果，点击修图结果右上角下载按钮即可）
+**在线体验使用方式：**
 
-  
+&emsp;&emsp;打开连接后，左侧两个图片输入框分别需要上传待修复的原图和代表原图上破损位置的Mask（Mask可以从上方百度网盘下载，也可以自行制作，512*512黑白图），上传后点击Submit即可开始修复，修复结束后左侧会分别展示Mask叠加到原图上的效果（代表模型真实输入）以及图片的修复结果。
+&emsp;&emsp;Clear按钮用来清空所有输入（连续修图时使用）。Flag按钮用来保存修复结果（该结果会保存在后台服务器，如果要下载修图结果，点击修图结果右上角下载按钮即可）
 
-  <img src="./show_img/gradio展示.png" width="900px">
 
-  <hr>
 
-  
+<img src="./show_img/gradio展示.png" width="900px">
+
+<hr>
+
+
 
 
   ## 研究背景
@@ -71,6 +71,7 @@
   <hr>
 
 
+
   ## :rocket: 运行要求
 
   - 运行算法与Web前端需要 Python >= 3.8
@@ -80,11 +81,14 @@
 
   <hr>
 
-  
+
+
 
   ## :zap:开始
 
   ### 环境配置（推荐使用conda安装环境）
+
+
 
   ```
 # Clone项目
@@ -112,7 +116,9 @@ python gradio_demo.py
 
   ### 方式二：启动基于QT的桌面应用GUI
 
-  使用QT编译器打开QT代码即可，详见[计算机毕业设计--基于深度学习技术（Transformer、GAN）的破损图像修复算法（含Github代码+GUI与Web端展示界面）_计算机专业本科毕业设计深度学习-CSDN博客](https://blog.csdn.net/qq_45566099/article/details/134942373)
+使用QT编译器打开QT代码即可，详见：
+
+[计算机毕业设计--基于深度学习技术（Transformer、GAN）的破损图像修复算法（含Github代码+GUI与Web端展示界面）_计算机专业本科毕业设计深度学习-CSDN博客](https://blog.csdn.net/qq_45566099/article/details/134942373)
 
   <img src="./show_img/Snipaste_2024-06-04_09-59-19.png" width="700px">
 
@@ -133,6 +139,7 @@ python generate_image_cpu.py
   <img src="./show_img/cmd_demo.png" width="500px">
 
   <hr>
+
 
 
   ## 模型演示（控制台演示 & QT界面展示）
@@ -158,6 +165,7 @@ python generate_image_cpu.py
   <hr>
 
 
+
   ## :wrench:	如何自己训练模型?
 
   - 项目提供自行训练or微调的方式，请咨询作者
@@ -173,6 +181,7 @@ python generate_image_cpu.py
   - 本项目完整代码 + 环境配置方法（另可提供远程部署服务）+ GUI界面 + Web端 == **价格300RMB，可提供远程部署服务，另提供GPU服务器短期租赁服务，24G显存服务器每个月100RMB**
 
   <hr>
+
 
 
   ## 模型训练可用公开数据集
@@ -192,6 +201,7 @@ python generate_image_cpu.py
     制作机构：Czech Technical University in Prague (捷克技术大学)
 
   <hr>
+
 
 
   ## 广告
