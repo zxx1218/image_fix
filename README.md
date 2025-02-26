@@ -1,4 +1,4 @@
-<h1><center>基于深度学习技术（Transformer、GAN）的专一或多类别图像修复算法（含GUI+Web端在线体验界面）</center></h1>
+<h1><center>基于深度学习技术（生成对抗网络GAN与Transformer）的专一或多类别图像修复算法（含GUI+Web端在线体验界面）</center></h1>
 
 ### 如果要做老照片像素清晰化，划痕修复，请参考这篇CSDN作品👇
 
