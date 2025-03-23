@@ -1,16 +1,14 @@
-<h1><center>基于深度学习技术（生成对抗网络GAN与Transformer）的专一或多类别图像修复算法</center></h1>
+<h1><center>基于深度学习技术（U-Net架构下融合生成对抗网络GAN与Transformer）的专一或多类别图像修复算法</center></h1>
 
-### 如果要做老照片像素清晰化，划痕修复，请参考这篇CSDN作品👇
 
+### 如果要做旧照片清晰化，划痕修复，请参考这篇CSDN作品👇
 [计算机毕业设计--基于深度学习的图像修复（清晰化+划痕修复+色彩增强）算法设计与实现（含Github代码+GUI+Web端在线体验界面）](https://blog.csdn.net/qq_45566099/article/details/136506388)
-
-### 如果您想对灰度图片进行上色，或是老照片的色彩复原，请参考这篇CSDN作品👇
-
+### 如果您想对灰度图片进行图像上色，请参考这篇CSDN作品👇
 [计算机毕业设计-基于深度学习的老(旧)照片色彩复原、上色算法模型设计与实现（对抗生成式网络GAN、含Github代码与Web端设计）](https://blog.csdn.net/qq_45566099/article/details/138611013)
 
-<h3>更多基于深度学习的毕业设计请关注专栏 --- <a href="https://blog.csdn.net/qq_45566099?type=blog">深度学习相关计算机毕业设计</a></h3>
 
-<hr>
+
+<h3><center>更多基于深度学习方向的毕业设计请关注专栏 --- <a href="https://blog.csdn.net/qq_45566099/category_12507289.html">深度学习相关计算机毕业设计</a></center></h3>
 
 
 
@@ -22,14 +20,18 @@
 
 - 作者正忙，稍后上传
 
-<hr>
+## :sparkles: 图像修复算法Web端演示视频
+- 请移步至：<a href="https://blog.csdn.net/qq_45566099/article/details/134942373">图像修复算法Web端演示视频
+
+
+
 
 ## :sparkles: 图像修复在线体验
 
 👇
 
- **Web端在线体验地址：**:white_check_mark:[访问这里进行图像修复在线体验](http://qh880639rv62.vicp.fun):white_check_mark:
-
+ **Web端在线体验地址：**:white_check_mark:[访问这里进行图像修复在线体验](http://zxxserver.e3.luyouxia.net:10245):white_check_mark:
+ 
 **在线体验地址已经集成了训练好的模型，您只需点击选择使用的模型即可！**
 
 ☝
@@ -51,8 +53,6 @@
 ```
 
 
-<hr>
-
 **在线体验使用方式：**
 
 &emsp;&emsp;打开连接后，左侧两个图片输入框分别需要上传待修复的原图和代表原图上破损位置的Mask。**在网页下方提供了四组输入样例，点击样例自动填充到相应位置后即可点击开始修复查看效果。**
@@ -64,7 +64,12 @@
 <img src="./show_img/1.png" width="950px">
 
 
-<hr>
+
+## Celeba-HQ数据集下模型的训练日志（采用Tensorboard可视化工具）
+
+<img src="./show_img/loss1.png" width="950px">
+
+<img src="./show_img/loss2.png" width="950px">
 
 
 ## 模型研究背景
@@ -83,10 +88,6 @@
 
 ## 模型性能指标测试
 - 包括`SSIM（Structural Similarity）`结构相似性指标、`PSNR（Peak signal-to-noise ratio） `峰值信噪比、`PID`、`UID`指标以及训练过程中`Acc`和`Loss`的评估。如果你是在私有数据集上训练的模型，那么上述测试数据需要在自己训练过的模型上才能完成指标测试，相关测试请联系作者（联系方式见文末）
-
-
-<hr>
-
 
 
   ## :rocket: 运行要求
@@ -114,12 +115,8 @@
 提取码：zz1k
 ```
 
-<hr>
 
-
-
-
-  ## :zap:模型所需环境配置及使用方法（Windows / Linux 均适用）
+  ## :zap:模型所需环境配置及使用方法（Windows / Linux / Mac均适用）
 
   ### 环境配置
 
@@ -215,7 +212,7 @@ python generate_image.py --参数1 --参数2 --参数n
 
   ### 2. 访问Web进行图像修复
 
-Web端在线体验地址： :white_check_mark: [访问这里进行图像修复在线体验](http://qh880639rv62.vicp.fun):white_check_mark:
+Web端在线体验地址： :white_check_mark: [访问这里进行图像修复在线体验](http://zxxserver.e3.luyouxia.net:10245):white_check_mark:
 
   - 由于github上传视频受限，观看演示视频请移步至我的CSDN观看，连接：https://blog.csdn.net/qq_45566099/article/details/134942373
 
@@ -229,9 +226,9 @@ Web端在线体验地址： :white_check_mark: [访问这里进行图像修复�
 
 
 
-  ## :wrench:	如何自己训练模型?
+## :wrench:	如何自己训练模型?
 
-- 训练自己想要的定制化图像修复模型**只需要准备好针对需要修复图片的同类型图片数据即可**，具体训练方式请咨询作者
+- 训练自己想要的定制化图像修复模型**只需要准备好待修复图片即可，训练过程作者已经包装为脚本，两步操作即可训练**，具体训练方式请咨询作者
 
 <hr>
 
@@ -285,10 +282,6 @@ Web端在线体验地址： :white_check_mark: [访问这里进行图像修复�
   制作机构：Czech Technical University in Prague (捷克技术大学)
 
 
-<hr>
-
-
 ## 广告
-
-- 作者于浙江某985高校就读人工智能方向研究生(CSDN已认证)，可以定制模型，并提供相应技术文档以及各种需要，只需要描述需求即可
-- 人工智能、深度学习领域，尤其是计算机视觉（Computer vision，CV）方向的模型or毕业设计，只要你想得出，没有做不出
+- **作者于浙江某985高校就读人工智能方向研究生(CSDN已认证)，可以定制模型，并提供相应技术文档以及各种需要，只需要描述需求即可**
+- **人工智能、深度学习领域，尤其是计算机视觉（Computer vision，CV）方向的模型or毕业设计，只要你想得出，没有做不出**
