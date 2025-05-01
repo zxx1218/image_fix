@@ -30,7 +30,7 @@
 
 👇
 
- **Web端在线体验地址：**:white_check_mark:[访问这里进行图像修复在线体验](http://zxxserver.e3.luyouxia.net:10245):white_check_mark:
+ **Web端在线体验地址：**:white_check_mark:[访问这里进行图像修复在线体验](http://zxxserver.w1.luyouxia.net/imgfix):white_check_mark:
  
 **在线体验地址已经集成了训练好的模型，您只需点击选择使用的模型即可！**
 
@@ -212,7 +212,7 @@ python generate_image.py --参数1 --参数2 --参数n
 
   ### 2. 访问Web进行图像修复
 
-Web端在线体验地址： :white_check_mark: [访问这里进行图像修复在线体验](http://zxxserver.e3.luyouxia.net:10245):white_check_mark:
+Web端在线体验地址： :white_check_mark: [访问这里进行图像修复在线体验](http://zxxserver.w1.luyouxia.net/imgfix):white_check_mark:
 
   - 由于github上传视频受限，观看演示视频请移步至我的CSDN观看，连接：https://blog.csdn.net/qq_45566099/article/details/134942373
 
