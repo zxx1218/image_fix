@@ -30,9 +30,11 @@
 
 👇
 
- **Web端在线体验地址：**:white_check_mark:[访问这里进行图像修复在线体验](http://zxxserver.w1.luyouxia.net/imgfix):white_check_mark:
+ **Web端在线体验地址：**:white_check_mark:[访问这里进行图像修复在线体验](http://fortunefreedom.top:9091/):white_check_mark:
  
 **在线体验地址已经集成了训练好的模型，您只需点击选择使用的模型即可！**
+
+**注意：为了节约电费成本：服务器开放时间为每年10月1日到次年7月1日（其余时间上述连接可能不能访问）**
 
 ☝
 
@@ -40,13 +42,11 @@
 ### 图像修复论文开题报告&&任务书
 
 &emsp;&emsp;**提示：** 本科生做深度学习毕业设计是比做一个系统更容易通过答辩与毕业的，学校对本科生掌握深度学习知识的程度不高，只需要能大致讲述出模型的设计流程，并在论文中写清楚即可。
-
 &emsp;&emsp;另外，本科生做深度学习的项目一般不能纯做算法（因为老师清楚本科生并不具备单独研究算法的能力），所以应该以算法+应用为主，因此一定需要一个为算法配套的可视化交互程序（Web端或者GUI桌面应用程序）。该项目设计了GUI和Web页面两种配套应用，一般来说，选择其一就可以。
 
 **本项目提供该项目可用的开题报告与任务书供免费下载使用（开题报告不查重）**
 
 :package:：**图像修复论文可用开题报告`&&`任务书下载链接：**
-
 ```
 通过网盘分享的文件：破损图像修复开题报告&&任务书.doc
 链接: https://pan.baidu.com/s/1k7P5HQtDLqw1plzNBCQ3WQ?pwd=jkbb 提取码: jkbb
@@ -55,9 +55,9 @@
 
 **在线体验使用方式：**
 
-&emsp;&emsp;打开连接后，左侧两个图片输入框分别需要上传待修复的原图和代表原图上破损位置的Mask。**在网页下方提供了四组输入样例，点击样例自动填充到相应位置后即可点击开始修复查看效果。**
+&emsp;&emsp;使用前请先阅读上方提示。对于Mask复用，您可以任意点击下方Examples中的示例，然后替换掉待修复图片即可 (另外Mask也可以从下方提供的百度网盘下载，也可以自行制作，要求512*512黑白图)
 
-**注意：** 修复第一张图的时候耗时较长，大约10秒左右。从第二张图开始，速度就会快起来，大约5秒左右一张（这主要是因为为了节约服务器资源，第一次启动的时候模型需要加载进显卡中）
+**注意： 修复第一张图的时候耗时较长，大约15秒左右。从第二张图开始，速度就会快起来，大约5秒左右一张（这主要是因为为了节约服务器资源，第一次启动的时候模型需要加载进显卡中）**
 
 
 
@@ -212,7 +212,7 @@ python generate_image.py --参数1 --参数2 --参数n
 
   ### 2. 访问Web进行图像修复
 
-Web端在线体验地址： :white_check_mark: [访问这里进行图像修复在线体验](http://zxxserver.w1.luyouxia.net/imgfix):white_check_mark:
+Web端在线体验地址： :white_check_mark: [访问这里进行图像修复在线体验](http://fortunefreedom.top:9091/):white_check_mark:
 
   - 由于github上传视频受限，观看演示视频请移步至我的CSDN观看，连接：https://blog.csdn.net/qq_45566099/article/details/134942373
 
@@ -234,12 +234,11 @@ Web端在线体验地址： :white_check_mark: [访问这里进行图像修复�
 
 ##  :star:作者联系方式：
 
-- `VX：Accddvva`
-- `QQ：1144968929`
-
-- Github提供训练好的模型文件以及调用该文件进行修图的测试代码（**Github开源代码中不含模型定义源码、训练代码以及QT的桌面端GUI代码，提供可供测试的模型文件，拉取Git代码后安装环境可进行修图测试**）
-- 该项目完整代码 + 详细环境配置（如有需要可提供模型远程部署）+ GUI界面 + Web端 + 训练方式 == 价格300RMB
-- 如果你的电脑没有合适的GPU，或需要自行训练私有数据而自己的GPU显存不够，作者另提供GPU服务器短期（3个月内）免费使用服务，免费提供24G显存+64G内存云服务器（可使用Vscode、OpenSSH、PuTTY、Xshell、SecureCRT、MobaXterm等远程工具连接）
+- VX：Accddvva
+- QQ：1144968929
+- `Github`提供训练好的模型文件以及调用该文件进行修图的测试代码（`Github`开源代码中不含模型定义源码、训练代码以及`QT`的桌面端`GUI`代码，提供可供测试的模型文件，拉取`Git`代码后安装环境可进行修图测试）
+- **该项目完整代码 + 详细环境配置（如有需要可提供模型远程部署）+ GUI界面 + Web端 + 训练方式 == 价格300RMB**
+- 如果你的电脑没有合适的`GPU`，或需要自行训练私有数据而自己的`GPU`显存不够，作者另提供`GPU`服务器免费使用服务（到当年`6`月底毕业季结束），免费提供60G显存+256G内存云服务器（可使用`Vscode、OpenSSH、PuTTY、Xshell、SecureCRT、MobaXterm`等远程工具连接）
 
 <hr>
 
@@ -247,41 +246,22 @@ Web端在线体验地址： :white_check_mark: [访问这里进行图像修复�
 
 ## 一些模型训练可用的公开数据集
 
-- **人脸（提供训练过的模型文件）**公开数据集**CelebA-HQ**：
-  
-  链接：https://github.com/tkarras/progressive_growing_of_gans
-
-  制作机构：Tero Karras, Samuli Laine, Timo Aila 和 NVIDIA 的研究人员制作-内含约4万张训练图片
-  
-- **自然场景（提供训练过的模型文件）**公开数据集**Places2**：
-  
-  链接：http://places2.csail.mit.edu/download.html
-  
-  制作机构：斯坦福大学和微软研究院共同制作-内含180万张训练图片
-  
-- **街景**公开数据集**Paris StreetView**：
-  
-  链接：http://opendata.paris.fr/explore/dataset/photos-de-rue-a-paris/
-  
-  制作机构：巴黎市政府
-  
-- **文理**公开数据集**DTD**：
-  
-  链接：http://www.robots.ox.ac.uk/~vgg/data/dtd/。
-  
-  制作机构：英国牛津大学计算机视觉研究团队
-  
-- **建筑**公开数据集**Façade**：
-  
-  链接：https://github.com/shannontian/facade-parsing
-  
-  官方网站：CMP Facade Database
-  
-  数据集共享平台：https://www.vision.ee.ethz.ch/datasets_extra/facade/
-  
-  制作机构：Czech Technical University in Prague (捷克技术大学)
+- **人脸（提供训练过的模型文件）**公开数据集**CelebA-HQ**：链接：https://github.com/tkarras/progressive_growing_of_gans
+制作机构：Tero Karras, Samuli Laine, Timo Aila 和 NVIDIA 的研究人员制作-内含约4万张训练图片
+- **自然场景（提供训练过的模型文件）**公开数据集**Places2**：链接：http://places2.csail.mit.edu/download.html
+制作机构：斯坦福大学和微软研究院共同制作-内含180万张训练图片
+- **街景**公开数据集**Paris StreetView**：链接：http://opendata.paris.fr/explore/dataset/photos-de-rue-a-paris/
+制作机构：巴黎市政府
+- **文理**公开数据集**DTD**：链接：http://www.robots.ox.ac.uk/~vgg/data/dtd/。
+制作机构：英国牛津大学计算机视觉研究团队
+- **建筑**公开数据集**Façade**：链接：
+GitHub上的项目：https://github.com/shannontian/facade-parsing
+官方网站：CMP Facade Database
+数据集共享平台：https://www.vision.ee.ethz.ch/datasets_extra/facade/
+制作机构：Czech Technical University in Prague (捷克技术大学)
 
 
 ## 广告
 - **作者于浙江某985高校就读人工智能方向研究生(CSDN已认证)，可以定制模型，并提供相应技术文档以及各种需要，只需要描述需求即可**
 - **人工智能、深度学习领域，尤其是计算机视觉（Computer vision，CV）方向的模型or毕业设计，只要你想得出，没有做不出**
+
