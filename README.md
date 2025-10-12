@@ -61,7 +61,7 @@
 
 
 
-<img src="./show_img/1.png" width="950px">
+<img src="./show_img/zhanshi_202510.png" width="950px">
 
 
 
@@ -247,7 +247,7 @@ Web端在线体验地址： :white_check_mark: [访问这里进行图像修复�
    
  2. **如您有其他疑问或者定制化需求，请联系作者咨询**
 
-<img src="./show_img/cmd_demo.png" width="500px">
+<img src="./show_img/xianyu.png" width="300px" height="500px">
 
 <hr>
 
@@ -272,5 +272,6 @@ GitHub上的项目：https://github.com/shannontian/facade-parsing
 ## 广告
 - **作者于浙江某985高校就读人工智能方向研究生(CSDN已认证)，可以定制模型，并提供相应技术文档以及各种需要，只需要描述需求即可**
 - **人工智能、深度学习领域，尤其是计算机视觉（Computer vision，CV）方向的模型or毕业设计，只要你想得出，没有做不出**
+
 
 
