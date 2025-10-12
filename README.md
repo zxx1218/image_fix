@@ -241,7 +241,15 @@ Web端在线体验地址： :white_check_mark: [访问这里进行图像修复�
 - 如果你的电脑没有合适的`GPU`，或需要自行训练私有数据而自己的`GPU`显存不够，作者另提供`GPU`服务器免费使用服务（到当年`6`月底毕业季结束），免费提供60G显存+256G内存云服务器（可使用`Vscode、OpenSSH、PuTTY、Xshell、SecureCRT、MobaXterm`等远程工具连接）
 
 <hr>
+## :moneybag:项目下单方式：
 
+ 1. 👉 [**点击连接-专一或多类别图像修复算法-闲鱼下单**](https://m.tb.cn/h.SSfv4bx?tk=SULFfb2TG7A)  👈  
+   
+ 2. **如您有其他疑问或者定制化需求，请联系作者咨询**
+
+<img src="./show_img/cmd_demo.png" width="500px">
+
+<hr>
 
 
 ## 一些模型训练可用的公开数据集
@@ -264,4 +272,5 @@ GitHub上的项目：https://github.com/shannontian/facade-parsing
 ## 广告
 - **作者于浙江某985高校就读人工智能方向研究生(CSDN已认证)，可以定制模型，并提供相应技术文档以及各种需要，只需要描述需求即可**
 - **人工智能、深度学习领域，尤其是计算机视觉（Computer vision，CV）方向的模型or毕业设计，只要你想得出，没有做不出**
+
 
