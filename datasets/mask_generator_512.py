@@ -4,6 +4,7 @@ import math
 import random
 
 
+
 def RandomBrush(
     max_tries,
     s,

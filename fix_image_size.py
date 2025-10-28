@@ -1,5 +1,4 @@
 from PIL import Image
-
 # 打开图片
 image = Image.open('/home/zxx/zxxCode/MAT-main/test_sets/my/images/010264.jpg')
 

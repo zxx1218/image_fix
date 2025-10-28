@@ -2,7 +2,6 @@
 用于记录每次训练的各项参数，代码版本2.0.4
 Copyright © [2023] [浙江大学计算机视觉人工智能国家重点实验室·Zhejiang HangZhou]. All Rights Reserved.
 """
-
 import click
 import pickle
 import re

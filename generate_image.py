@@ -9,7 +9,6 @@ import os
 import re
 import random
 from typing import List, Optional
-
 import click
 import dnnlib
 import numpy as np

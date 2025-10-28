@@ -1,5 +1,4 @@
-﻿
-import re
+﻿import re
 import contextlib
 import numpy as np
 import torch
